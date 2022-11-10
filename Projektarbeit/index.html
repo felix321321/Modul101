@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/stylesheet.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<title>Homepage</title>
+	</head>
+	<body>
+
+		<!--Navigationsleiste um zwischen den Seiten zu navigieren-->
+		<div id="navigation">
+
+			<ul>
+			  <li><a class="active" href="index.html">Homepage</a></li>
+			  <li><a href="page1.html">Links und Bilder</a></li>
+			  <li><a href="page2.html">Tabellen</a></li>
+			  <li><a href="page3.html">Listen</a></li>
+			  <li><a href="impressum.html">Impressum</a></li>
+			</ul>
+
+		</div>
+
+		<div id="content">
+
+			<!--Zusammenfassung des Inhalts der Webseite-->
+
+			<div id="summary">
+
+				<h5>Diese Seite ist eine Übersicht über die Grundlagen von HTML</h5>
+				<p>Folgende Elemente werden auf dieser Seite vermittelt</p>
+				<ul>
+					<li>Was ist HTML</li>
+					<li>Aufbau einer HTML-Seite</li>
+					<li>Meine erste Webseite</li>
+				</ul>
+
+			</div>
+
+			<!--Detailierter Inhalt der Webseite-->
+
+			<div id="text">
+
+				<h5>Was ist HTML</h5>
+				<p>
+					Die Hypertext Markup Language (HTML) ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente
+					 wie Texte mit Hyperlinks, Bildern und anderen Inhalten.
+				</p>
+				<p>
+					 HTML-Dokumente sind die Grundlage des World Wide Web und werden vonWebbrowsern dargestellt.
+				</p>
+
+				<h5>Wie ist eine HTML Seite aufgebaut</h5>
+				<p>
+					Eine HTML-Seite enthällt immer einen HTML-Tag um anzugeben welche HTML-Version verwendet wird, einen Head welcher Daten enthällt
+				  die nicht auf einer Webseite ausgegeben werden und den Body welcher den Webseiteninhalt beinhaltet.
+				</p>
+				<p>
+					Auserdem werden sie mit ".html" abgespeichert.
+				</p>
+
+				<h5>Meine erste Webseite</h5>
+				<p>
+					Unter dem Text ist ein Codebeispiel welches Links die visuelle Ausgabe beinhaltet und rechts den dazugehörigen Programmcode.
+				</p>
+				<p>
+					Im ersten Schritt erstellen wir einen Paragraphen welcher einfach nur "Hello World" ausgeben soll, dazu verwenden wir ein "&lt; p &gt;" Tag zum öffnen, schreiben unsere Nachricht und schliesen den Tag wieder mit "&lt; /p &gt;".
+				</p>
+				<p>
+					Dies erzeugt eine Webseite welche den angegebenen Text enthällt. Ein Beispiel ist unten aufgelistet.
+			 </p>
+
+			</div>
+
+    </div>
+
+
+		<!--Bild und Codebeispiel der Webseite-->
+
+		<div id="example">
+
+			<div id="code">
+
+				<figure>
+					<img src="images/code1.png">
+					<figcaption>
+						<p>Hello World HTML Code</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div id="visual">
+
+				<figure>
+					<img src="images/image1.png">
+					<figcaption>
+						<p>Hello World im Browser</p>
+					</figcaption>
+				</figure>
+
+			</div>
+
+		</div>
+
+		<!--Downloads, Tipps und Links der Webseite-->
+
+		<div id="hyperlinks">
+
+			<div id="downloads">
+
+				<h4>Downloads</h4>
+				<ul>
+					<li>
+						<a href="downloads/example.html" download>HTML-Datei</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="tipps">
+
+				<h4>Tipps</h4>
+				<ul>
+					<li>Achte darauf alle Tags zu schliesen</li>
+					<li>Verwende immer den html, head und body tag</li>
+					<li>Vergewissere dich die richtige Webseite aufgerufen zu haben sollte eine Falsche angezeigt werden</li>
+				</ul>
+
+			</div>
+
+			<div id="links">
+
+				<h4>Links</h4>
+				<ul>
+					<li><a href="https://www.w3schools.com/html/html_intro.asp">W3schools</a></li>
+					<li><a href="https://wiki.selfhtml.org/wiki/HTML/Tutorials/Einstieg">Selfhtml</a></li>
+					<li><a href="page1.html">Nächste Seite</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<!--Footer der Webseite welcher das Copyright enthällt-->
+
+		<div id="foot">
+
+			<p>© 2021 by Felix Gerber</p>
+
+		</div>
+
+	</body>
+</html>

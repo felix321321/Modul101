@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/stylesheet.css" rel="stylesheet">
+		<title>Links und Bilder</title>
+	</head>
+	<body>
+
+		<!--Navigationsleiste um zwischen den Seiten zu navigieren-->
+	  <div id="navigation">
+
+	    <ul>
+	      <li><a href="index.html">Homepage</a></li>
+	      <li><a class="active" href="page1.html">Links und Bilder</a></li>
+	      <li><a href="page2.html">Tabellen</a></li>
+	      <li><a href="page3.html">Listen</a></li>
+	      <li><a href="impressum.html">Impressum</a></li>
+	    </ul>
+
+		</div>
+
+		<div id="content">
+
+			<!--Zusammenfassung des Inhalts der Webseite-->
+
+			<div id="summary">
+
+				<h5>Diese Seite ist eine Übersicht über die Grundlagen von Links und Bildern</h5>
+				<p>Folgende Elemente werden auf dieser Seite vermittelt</p>
+				<ul>
+					<li>Wie füge ich einen Link ein</li>
+					<li>Wie füge ich Bilder ein</li>
+					<li>Ein Bild als Link verwenden</li>
+				</ul>
+
+			</div>
+
+			<!--Detailierter Inhalt der Webseite-->
+
+			<div id="text">
+
+				<h5>Wie füge ich einen Link ein</h5>
+				<p>
+					Um in HTML einen Link einzufügen, muss man einen bestimmten Tag im Body verwenden. Dieser ist der "&lt; a &gt;" Tag welcher auch wieder mit  "&lt; /a &gt;" geschlossen werden muss.
+				</p>
+				<p>
+				 In diesen Tag wird ein Attribut "href" hinzugefügt, welches den Link enthällt (bspw. einen Youtube Link), das ganze könnte beispielsweise also so aussehen:
+			  </p>
+				<p>
+				 &lt; a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"&gt; Mein erster Link &lt; /a &gt;
+			  </p>
+			  <p>
+				 Dies würde einen Link erzeugen welcher den Namen "Mein erster Link" hat und auf die angegebene Youtube Seite weiterleiten. Ein Beispiel ist unten aufgelistet.
+			  </p>
+
+			 <h5>Wie füge ich Bilder ein</h5>
+			 <p>
+				 Um in HTML ein Bild einzufügen, muss man auch einen bestimmten Tag im Body verwenden. Dieser ist der "&lt; img &gt;" Tag welcher nicht wieder geschlossen werden muss.
+			 </p>
+			 <p>
+				In diesen Tag wird ein Attribut "src" hinzugefügt, welches den Link enthällt (bspw. den Link zu einem Bild) oder den Pfad auf eine lokale Datei,
+				das ganze könnte beispielsweise also so aussehen:
+			</p>
+			<p>
+				&lt; img src="https://www.kindernetzwerk.de/images/glossar/Doppelhelix-DNA-2a.jpg"&gt;
+			</p>
+			<p>
+				Dies würde ein Bild einfügen welches auf der angegebenen Seite vorhanden ist. Ein Beispiel ist unten aufgelistet.
+			</p>
+
+			<h5>Ein Bild als Link verwenden</h5>
+			<p>
+				Um in HTML einen Link als Bild einzufügen, muss man als Namen des Links einfach ein Bild einfügen, dies sollte sehr einfach gehen, sofern die oberen beiden Beispiele verstanden wurden.
+			</p>
+			<p>
+				Das ganze könnte beispielsweise so aussehen:
+			</p>
+			<p>
+				&lt; a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"&gt; &lt; img src="https://www.kindernetzwerk.de/images/glossar/Doppelhelix-DNA-2a.jpg"&gt; &lt; /a &gt;
+			</p>
+			<p>
+				Dies erzeugt ein Bild welches zum angegebenen Link weiterleitet. Ein Beispiel ist unten aufgelistet.
+		 </p>
+
+			</div>
+
+    </div>
+
+		<!--Bild und Codebeispiel der Webseite-->
+
+		<div id="example">
+
+			<div id="code">
+
+				<figure>
+					<img src="images/code2.png">
+					<figcaption>
+						<p>Link HTML Code</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="images/code3.png">
+					<figcaption>
+						<p>Image Code</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="images/code4.png">
+					<figcaption>
+						<p>Image als Link Code</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div id="visual">
+
+				<figure>
+					<img src="images/image2.png">
+					<figcaption>
+						<p>Link im Browser</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="images/image3.png">
+					<figcaption>
+						<p>Image im Browser</p>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="images/image4.png">
+					<figcaption>
+						<p>Image als Link im Browser</p>
+					</figcaption>
+				</figure>
+
+			</div>
+
+		</div>
+
+		<!--Downloads, Tipps und Links der Webseite-->
+
+		<div id="hyperlinks">
+
+			<div id="downloads">
+
+				<h4>Downloads</h4>
+				<ul>
+					<li>
+						<a href="downloads/example2.html" download>Link-Datei</a>
+					</li>
+					<li>
+						<a href="downloads/example3.html" download>Image-Datei</a>
+					</li>
+					<li>
+						<a href="downloads/example4.html" download>Image-Link-Datei</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="tipps">
+
+				<ul>
+					<li>Achte darauf alle Tags zu schliesen</li>
+					<li>Verwende immer den html, head und body tag</li>
+					<li>Vergewissere dich die richtige Webseite aufgerufen zu haben sollte eine Falsche angezeigt werden</li>
+					<li>Sollte dein Bild nicht richtig angezeigt werden, so kann dieses eventuell nicht verfügbar sein (entweder gelöscht oder nicht mehr erreichbar)</li>
+				</ul>
+
+			</div>
+
+			<div id="links">
+
+				<h4>Links</h4>
+				<ul>
+					<li><a href="https://www.w3schools.com/html/html_links.asp">W3schools-Links</a></li>
+					<li><a href="https://www.w3schools.com/html/html_images.asp">W3schools-Bilder</a></li>
+					<li><a href="https://wiki.selfhtml.org/wiki/HTML/Tutorials/Links">Selfhtml-Links</a></li>
+					<li><a href="https://wiki.selfhtml.org/wiki/HTML/Tutorials/Bilder_im_Internet/Einbindung_mit_img">Selfhtml-Bilder</a></li>
+					<li><a href="page2.html">Nächste Seite</a></li>
+					<li><a href="index.html">Letzte Seite</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<!--Footer der Webseite welcher das Copyright enthällt-->
+
+		<div id="foot">
+
+			<p>© 2021 by Felix Gerber</p>
+
+		</div>
+
+	</body>
+</html>
